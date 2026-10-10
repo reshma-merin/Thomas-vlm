@@ -2,7 +2,7 @@
 
 **Teaching a small language model to read satellite images of wildfire country.**
 
-A while back I pretrained **THOMAS** ([Thermal Object Monitoring And Analysis System](https://huggingface.co/reshma-merin-thomas/Thermal-Object-Monitoring-And-Analysis-System)), a self-supervised Vision Transformer that learned what the Earth looks like from about 930,000 Sentinel-2 tiles collected around fire detections. THOMAS is good at *seeing*, but it can't *say* anything.
+A while back I pretrained **THOMAS** ([Transformer for Harmonized Observation via Masked Autoencoding on Sentinel-2 imagery](https://github.com/reshma-merin/Transformer-for-Harmonized-Observation-via-Masked-Encoding-on-Sentinel-imagery)), a self-supervised Vision Transformer that learned what the Earth looks like from about 930,000 Sentinel-2 tiles collected around fire detections. THOMAS is good at *seeing*, but it can't *say* anything.
 
 This project gives it a voice. I connected THOMAS to a small language model (Qwen2.5-0.5B), so that given a 512 × 512 satellite tile it writes a short, structured description: is there smoke, how cloudy is it, what's the land like, are there burn scars, is there water.
 
