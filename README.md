@@ -167,6 +167,3 @@ The tiles themselves are Sentinel-2 RGB exports from Google Earth Engine, placed
 - The Qwen team for Qwen2.5-0.5B-Instruct, and Hugging Face for Transformers and PEFT.
 - Claude (Anthropic) for writing the captions, and for patiently debugging this project with me.
 
----
-
-Built by Reshma Merin Thomas.
