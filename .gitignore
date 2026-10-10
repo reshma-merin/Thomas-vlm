@@ -1,0 +1,56 @@
+# ---------- Secrets (NEVER commit) ----------
+.env
+*.env
+secrets*
+*api_key*
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- Virtual environment ----------
+.thomas-vlm/
+.venv/
+venv/
+
+# ---------- Model weights and checkpoints (too large; host on Hugging Face instead) ----------
+ckpt_*/
+thomas_model/*.pt
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# ---------- Data and images (large, and the .jsonl files contain local Windows paths) ----------
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+sample.jsonl
+captions.jsonl
+trial*.jsonl
+train.jsonl
+val.jsonl
+test.jsonl
+preds_*.jsonl
+preview/
+imgs/
+pretraining_dataset/
+
+# ---------- Generated review figures (keep specific ones with: git add -f results/figure.png) ----------
+trial*_sheet.png
+error_sheet.png
+
+# ---------- Caches and editor files ----------
+.cache/
+huggingface/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
