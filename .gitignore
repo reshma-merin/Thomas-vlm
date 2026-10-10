@@ -42,9 +42,13 @@ preview/
 imgs/
 pretraining_dataset/
 
-# ---------- Generated review figures (keep specific ones with: git add -f results/figure.png) ----------
+# ---------- Generated review figures ----------
 trial*_sheet.png
 error_sheet.png
+
+# ---------- ...but keep the README images ----------
+!assets/
+!assets/*.png
 
 # ---------- Caches and editor files ----------
 .cache/
